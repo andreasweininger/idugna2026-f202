@@ -1,0 +1,28 @@
+AutoNova planted teaching cases 
+seed=42 listings=5000
+
+exact: blue 2020 hybrid SUV: listing_id [1, 2, 3, 4]
+near: light blue 2020 hybrid SUV: listing_id [5, 6]
+near: navy 2019 hybrid SUV: listing_id [7, 8]
+near: blue 2021 hybrid SUV: listing_id [9, 10]
+near: teal 2020 hybrid SUV: listing_id [11]
+near: blue 2019 hybrid SUV: listing_id [12, 13]
+near: light blue 2021 hybrid SUV: listing_id [14, 15]
+far: blue 2012 diesel truck: listing_id [16, 17]
+far: red 2020 hybrid SUV: listing_id [18, 19]
+fuel-saver but SOLD: listing_id [20, 21]
+fuel-saver but over budget: listing_id [22, 23]
+fuel-saver but far away: listing_id [24, 25]
+transmission complaints: Kestrel Ridge 2018: listing_id [26, 27, 28, 29]
+transmission complaints: Kestrel Ridge 2019: listing_id [30, 31, 32, 33]
+transmission complaints: Solano Terra 2017: listing_id [34, 35, 36, 37]
+transmission complaints: Orrin Gale 2020: listing_id [38, 39, 40, 41]
+
+near-duplicate pairs (original, copy at another dealer): [(678, 5001), (2128, 5002), (1004, 5003), (432, 5004), (1900, 5005), (862, 5006), (3241, 5007), (1690, 5008), (293, 5009), (4551, 5010)]
+text says clean but accident_free = 'N' (Ex. 3d): [120, 170, 222, 240, 243, 286, 300, 319, 347, 351, 428, 437, 444, 567, 610, 621, 627, 720, 792, 802, 846, 881, 882, 933, 967, 968, 1002, 1124, 1129, 1197, 1226, 1249, 1309, 1340, 1373, 1413, 1440, 1503, 1504, 1593, 1734, 1778, 1789, 1796, 1832, 1904, 2074, 2096, 2131, 2138, 2160, 2191, 2198, 2199, 2204, 2280, 2313, 2349, 2410, 2497, 2577, 2593, 2606, 2627, 2651, 2688, 2717, 2753, 2792, 2807, 2839, 2871, 2917, 2927, 2937, 2968, 2974, 3037, 3054, 3134, 3150, 3172, 3250, 3251, 3280, 3295, 3340, 3346, 3376, 3378, 3390, 3427, 3442, 3449, 3483, 3527, 3550, 3567, 3596, 3598, 3646, 3654, 3689, 3782, 3808, 3825, 3831, 3891, 3892, 3893, 3979, 3981, 4000, 4052, 4206, 4211, 4293, 4377, 4400, 4416, 4439, 4447, 4495, 4521, 4556, 4562, 4583, 4636, 4668, 4695, 4705, 4707, 4709, 4740, 4742, 4744, 4788, 4871, 4911, 4946]
+text mentions a repaired bump but accident_free = 'Y' (Ex. 3d): [71, 76, 94, 100, 110, 114, 116, 148, 186, 202, 282, 301, 397, 513, 525, 564, 625, 631, 659, 730, 744, 774, 791, 849, 856, 880, 922, 930, 932, 966, 981, 982, 985, 1008, 1027, 1145, 1153, 1162, 1171, 1244, 1246, 1276, 1290, 1310, 1364, 1404, 1455, 1469, 1493, 1528, 1533, 1539, 1622, 1667, 1764, 1855, 1866, 1873, 1902, 1943, 1965, 2031, 2052, 2062, 2086, 2105, 2117, 2159, 2236, 2304, 2384, 2435, 2441, 2570, 2609, 2646, 2668, 2674, 2679, 2680, 2718, 2818, 2828, 2830, 2918, 2921, 2953, 2956, 2987, 3066, 3105, 3118, 3138, 3175, 3199, 3202, 3227, 3261, 3265, 3285, 3318, 3446, 3481, 3509, 3553, 3583, 3588, 3660, 3674, 3682, 3711, 3732, 3733, 3775, 3778, 3784, 3842, 3858, 3859, 3863, 3880, 3899, 3970, 4002, 4019, 4044, 4077, 4081, 4096, 4101, 4107, 4160, 4182, 4185, 4239, 4245, 4294, 4311, 4343, 4381, 4382, 4406, 4479, 4485, 4630, 4690, 4701, 4714, 4746, 4758, 4789, 4790, 4831, 4860, 4868, 4878, 4917, 4943, 4947, 4948]
+dealers with extra underbody rust notes (Ex. 4a): [7, 12, 23]
+listings with rust notes: 589; with transmission problem notes: 34
+complaint model years (Ex. 4b): [('Kestrel', 'Ridge', 2018), ('Kestrel', 'Ridge', 2019), ('Solano', 'Terra', 2017), ('Orrin', 'Gale', 2020)]
+customer 77 = example customer of Ex. 6b; listing 9001 (listing_incoming.del) = Ex. 6c
+Ex. 5 request: blue 2020 HYBRID SUV, 45000 miles, $24000, AUTOMATIC, 1 owner
